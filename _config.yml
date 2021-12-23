@@ -4,7 +4,9 @@ email: uiurihappy@naver.com
 url: https://github.com/uiurihappy
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills:
+  -line: Backend Developer
+  -line: Spring boot, Nestjs
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -32,28 +34,24 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
   location: Location
   social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: tistory
+    url: http://ybchar.tistory.com
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://ko-kr.facebook.com/people/%EC%B0%A8%EC%9C%A4%EB%B2%94/100009780332149/
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/uiurihappy
+  - title: instagram
+    url: https://www.instagram.com/yb__char/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 서울특별시 영등포구 가마산로 442
+  - line: (신길동 래미안 프레비뉴) 07395
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
