@@ -12,13 +12,10 @@
         <div class="intro-text">
           <span class="name">Introduce</span>
           <hr class="star-light" />
-          <span class="skills">
-            Backend Developer <br />
-            Backend: Spring boot, Node.js, Nestjs, MySQL <br />
-            Frontend: HTML, css, JavaScript <br />
-            Useful language: JAVA, C++, C, C#, Typescript, JavaScript <br />
-            Other: DataStruct, Algorithm (language: JAVA, C++, C) <br />
-          </span>
+          <span class="skills"
+            >{% for skill in site.skills %} {{ skill.line }} <br />
+            {% endfor %}</span
+          >
         </div>
       </div>
     </div>
